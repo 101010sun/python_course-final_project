@@ -3,8 +3,7 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 import math
-import seaborn as sns
-import numpy as np
+
 #相關係數
 def mean(x):
     return sum(x) / len(x)
