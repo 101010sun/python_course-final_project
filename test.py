@@ -41,12 +41,14 @@ plt.ylabel("展覽次數")
 plt.show() #跳出圖表
 
 width = 0.1
-plt.bar(localdf['年']-0.15,localdf['東部展覽數'],label='東部地區',width=width) #推疊長條圖
-plt.bar(localdf['年']+0.15,localdf['北部展覽數'],label='北部地區',width=width)
-plt.bar(localdf['年']-0.05,localdf['南部展覽數'],label='南部地區',width=width)
-plt.bar(localdf['年']+0.05,localdf['中部展覽數'],label='中部地區',width=width)
+plt.bar(localdf['年']-0.15,localdf['東部展覽數'],label='東部地區',width=width,color='peachpuff') #推疊長條圖
+plt.bar(localdf['年']-0.05,localdf['中部展覽數'],label='中部地區',width=width,color='sandybrown')
+plt.bar(localdf['年']+0.05,localdf['南部展覽數'],label='南部地區',width=width,color='navajowhite')
+plt.bar(localdf['年']+0.15,localdf['北部展覽數'],label='北部地區',width=width,color='peru')
+plt.plot(finaldf['年'],finaldf['所得'],label='平均所得',linewidth=3,color='green') #所得和展覽數折線圖
 plt.legend() #顯示圖表的label
 plt.title("各地區年度藝文活動次數比較")
 plt.xlabel("年度")
-plt.ylabel("展覽次數")
+plt.ylabel("展覽次數/平均所得")
+
 plt.show() #跳出圖表
