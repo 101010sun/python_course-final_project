@@ -30,10 +30,11 @@ for root,dirs,files in os.walk(path):#os.walk用來取得指定資料夾內所�
 finaldf=pd.DataFrame({"年":year,"展覽數":times,"所得":salary})
 localdf=pd.DataFrame({"年":year,"東部展覽數":east,"中部展覽數":west,"南部展覽數":south,"北部展覽數":north}) #地區表格
 
-plt.bar(localdf['年'],localdf['東部展覽數'],label='東部地區') #推疊長條圖
-plt.bar(localdf['年'],localdf['北部展覽數'],label='北部地區',bottom=localdf['東部展覽數'])
-plt.bar(localdf['年'],localdf['南部展覽數'],label='南部地區',bottom=localdf['北部展覽數'])
-plt.bar(localdf['年'],localdf['中部展覽數'],label='中部地區',bottom=localdf['南部展覽數'])
+width=0.4
+plt.bar(localdf['年'],localdf['東部展覽數'],label='東部地區',width=width,color='steelblue') #推疊長條圖
+plt.bar(localdf['年'],localdf['北部展覽數'],label='北部地區',bottom=localdf['東部展覽數'],width=width,color='peachpuff')
+plt.bar(localdf['年'],localdf['南部展覽數'],label='南部地區',bottom=localdf['東部展覽數'],width=width,color='sandybrown') 
+plt.bar(localdf['年'],localdf['中部展覽數'],label='中部地區',bottom=localdf['東部展覽數'],width=width,color='skyblue')
 plt.legend() #顯示圖表的label
 plt.title("各地區年度藝文活動次數比較")
 plt.xlabel("年度")
