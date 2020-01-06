@@ -112,7 +112,7 @@ coraldf = pd.Series({"視覺藝術相關性":correlation(salary,visual_art),"工
 plt.plot('年','展演數',data=finaldf,color = '#53868B') #所得和展覽數折線圖
 plt.plot('年','所得',data=finaldf,color = '#F08080')
 plt.legend()
-plt.title("展覽樹和所得曲線圖")
+plt.title("展覽數和所得曲線圖")
 plt.xlabel("年度")
 plt.ylabel("展覽次數/所得")
 plt.show()
