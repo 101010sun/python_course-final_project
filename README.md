@@ -17,7 +17,7 @@
 ** 本項資料共選擇八個項目: 人口、教育、就業、土地、保育及觀光發展、生活品質與建設、家庭收支與政府財政等。
 
 **成果**
-1. 各地區年度藝文活動次數比較與平均所得 ![各地區年度藝文活動次數比較與平均所得](https://github.com/101010sun/python-project/blob/master/%E5%90%84%E5%9C%B0%E5%8D%80%E5%B9%B4%E5%BA%A6%E8%97%9D%E6%96%87%E6%B4%BB%E5%8B%95%E6%AC%A1%E6%95%B8%E6%AF%94%E8%BC%83%2B%E5%B9%B3%E5%9D%87%E6%89%80%E5%BE%97.png)
-2. 各地區年度藝文活動次數比較 ![各地區年度藝文活動次數比較](https://github.com/101010sun/python-project/blob/master/%E5%90%84%E5%9C%B0%E5%8D%80%E5%B9%B4%E5%BA%A6%E8%97%9D%E6%96%87%E6%B4%BB%E5%8B%95%E6%AC%A1%E6%95%B8%E6%AF%94%E8%BC%83.png)
-3. 展覽數和所得曲線圖 ![展覽數和所得曲線圖](https://github.com/101010sun/python-project/blob/master/%E5%B1%95%E8%A6%BD%E6%95%B8%E5%92%8C%E6%89%80%E5%BE%97%E6%9B%B2%E7%B7%9A%E5%9C%96.png)
-4. 所得與各項藝文活動相關係數圖 ![所得與各項藝文活動相關係數圖](https://github.com/101010sun/python-project/blob/master/%E6%89%80%E5%BE%97%E8%88%87%E5%90%84%E9%A0%85%E8%97%9D%E6%96%87%E6%B4%BB%E5%8B%95%E7%9B%B8%E9%97%9C%E4%BF%82%E6%95%B8%E5%9C%96.png)
+1. 各地區年度藝文活動次數比較與平均所得 ![各地區年度藝文活動次數比較與平均所得](https://github.com/101010sun/python_course-final_project/blob/master/%E5%90%84%E5%9C%B0%E5%8D%80%E5%B9%B4%E5%BA%A6%E8%97%9D%E6%96%87%E6%B4%BB%E5%8B%95%E6%AC%A1%E6%95%B8%E6%AF%94%E8%BC%83%2B%E5%B9%B3%E5%9D%87%E6%89%80%E5%BE%97.png)
+2. 各地區年度藝文活動次數比較 ![各地區年度藝文活動次數比較](https://github.com/101010sun/python_course-final_project/blob/master/%E5%90%84%E5%9C%B0%E5%8D%80%E5%B9%B4%E5%BA%A6%E8%97%9D%E6%96%87%E6%B4%BB%E5%8B%95%E6%AC%A1%E6%95%B8%E6%AF%94%E8%BC%83.png)
+3. 展覽數和所得曲線圖 ![展覽數和所得曲線圖](https://github.com/101010sun/python_course-final_project/blob/master/%E5%B1%95%E8%A6%BD%E6%95%B8%E5%92%8C%E6%89%80%E5%BE%97%E6%9B%B2%E7%B7%9A%E5%9C%96.png)
+4. 所得與各項藝文活動相關係數圖 ![所得與各項藝文活動相關係數圖](https://github.com/101010sun/python_course-final_project/blob/master/%E6%89%80%E5%BE%97%E8%88%87%E5%90%84%E9%A0%85%E8%97%9D%E6%96%87%E6%B4%BB%E5%8B%95%E7%9B%B8%E9%97%9C%E4%BF%82%E6%95%B8%E5%9C%96.png)
